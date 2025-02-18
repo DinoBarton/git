@@ -1957,6 +1957,7 @@ if get_option('docs') != []
 endif
 
 subdir('contrib')
+subdir('gitk-git')
 
 foreach key, value : {
   'DIFF': diff.full_path(),
@@ -2010,6 +2011,7 @@ summary({
   'curl': curl.found(),
   'expat': expat.found(),
   'gettext': intl.found(),
+  'gitk': gitk_enabled,
   'gitweb': gitweb_option.allowed(),
   'https': https_backend,
   'iconv': iconv.found(),

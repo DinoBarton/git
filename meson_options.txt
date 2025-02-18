@@ -41,6 +41,8 @@ option('gitweb', type: 'feature', value: 'auto',
   description: 'Build Git web interface. Requires Perl.')
 option('iconv', type: 'feature', value: 'auto',
   description: 'Support reencoding strings with different encodings.')
+option('gitk', type: 'feature', value: 'auto',
+  description: 'Build and install gitk(1), which requires Tcl.')
 option('pcre2', type: 'feature', value: 'enabled',
   description: 'Support Perl-compatible regular expressions in e.g. git-grep(1).')
 option('perl', type: 'feature', value: 'auto',
